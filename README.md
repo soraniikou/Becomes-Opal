@@ -1,7 +1,8 @@
 🌊 Becomes Opal — 感情リリース体験アプリ
 tap to release your feelings
 タップするたびに、感情がオパールの光になって解き放たれる。
-🔗 Live Demo: https://become-opal.vercel.app
+🔗 Live Demo: https://becomes-opal.vercel.app
+
 📁 Repository: soraniikou/Becomes-Opal
 ✨ 体験のイメージ
 �
