@@ -216,7 +216,8 @@ function windowResized() {
 - [ ] セッションの記録・可視化
 
 ---
-
+💍ライセンス
+MIT License © 2025 soraniikou
 💎 作者
 
 soraniikou
