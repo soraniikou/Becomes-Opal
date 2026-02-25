@@ -122,7 +122,9 @@ class Particle {
 }
 
 function touchStarted() {
-  setTimeout(() => { new Audio('wasurete.m4a').play(); }, 8000);
+  const audio = new Audio('wasurete.m4a');
+audio.load();
+setTimeout(() => { audio.play(); }, 8000);
   for (let i = 0; i < 25; i++) particles.push(new Particle(mouseX, mouseY));
   deepGlows.push(new DeepOpal(mouseX, mouseY));
   if (deepGlows.length > 20) deepGlows.shift();
