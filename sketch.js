@@ -35,6 +35,7 @@ function draw() {
 }
 
 function mousePressed() {
+  setTimeout(() => { new Audio('wasurete.m4a').play(); }, 8000);
   for (let i = 0; i < 25; i++) particles.push(new Particle(mouseX, mouseY));
   deepGlows.push(new DeepOpal(mouseX, mouseY));
   if (deepGlows.length > 20) deepGlows.shift();
@@ -121,7 +122,8 @@ class Particle {
 }
 
 function touchStarted() {
-  for (let i = 0; i < 25; i++) particles.push(new Particle(mouseX, mouseY));
+  setTimeout(() => { new Audio('wasurete.m4a').play(); }, 8000);
+  for (let i = 0; i < 25; i++) particles.pushParticle(mouseX, mouseY));
   deepGlows.push(new DeepOpal(mouseX, mouseY));
   if (deepGlows.length > 20) deepGlows.shift();
   return false;
